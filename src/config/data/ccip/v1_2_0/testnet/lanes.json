@@ -489,50 +489,7 @@
         "enforceOutOfOrder": false,
         "version": "1.5.0"
       },
-      "supportedTokens": {
-        "CCIP-BnM": {
-          "rateLimiterConfig": {
-            "in": {
-              "capacity": "100000000000000000000000",
-              "isEnabled": true,
-              "rate": "167000000000000000000"
-            },
-            "out": {
-              "capacity": "100000000000000000000000",
-              "isEnabled": true,
-              "rate": "167000000000000000000"
-            }
-          }
-        },
-        "CCIP-LnM": {
-          "rateLimiterConfig": {
-            "in": {
-              "capacity": "100000000000000000000000",
-              "isEnabled": true,
-              "rate": "167000000000000000000"
-            },
-            "out": {
-              "capacity": "100000000000000000000000",
-              "isEnabled": true,
-              "rate": "167000000000000000000"
-            }
-          }
-        },
-        "syrupUSDT": {
-          "rateLimiterConfig": {
-            "in": {
-              "capacity": "0",
-              "isEnabled": false,
-              "rate": "0"
-            },
-            "out": {
-              "capacity": "0",
-              "isEnabled": false,
-              "rate": "0"
-            }
-          }
-        }
-      }
+      "supportedTokens": ["CCIP-BnM", "CCIP-LnM", "syrupUSDT"]
     },
     "ethereum-testnet-sepolia-base-1": {
       "offRamp": {
@@ -544,36 +501,7 @@
         "enforceOutOfOrder": false,
         "version": "1.5.0"
       },
-      "supportedTokens": {
-        "CCIP-BnM": {
-          "rateLimiterConfig": {
-            "in": {
-              "capacity": "100000000000000000000000",
-              "isEnabled": true,
-              "rate": "167000000000000000000"
-            },
-            "out": {
-              "capacity": "100000000000000000000000",
-              "isEnabled": true,
-              "rate": "167000000000000000000"
-            }
-          }
-        },
-        "CCIP-LnM": {
-          "rateLimiterConfig": {
-            "in": {
-              "capacity": "100000000000000000000000",
-              "isEnabled": true,
-              "rate": "167000000000000000000"
-            },
-            "out": {
-              "capacity": "100000000000000000000000",
-              "isEnabled": true,
-              "rate": "167000000000000000000"
-            }
-          }
-        }
-      }
+      "supportedTokens": ["CCIP-BnM", "CCIP-LnM"]
     },
     "ethereum-testnet-sepolia-blast-1": {
       "offRamp": {
@@ -640,22 +568,7 @@
         "enforceOutOfOrder": true,
         "version": "1.6.0"
       },
-      "supportedTokens": {
-        "CCIP-BnM": {
-          "rateLimiterConfig": {
-            "in": {
-              "capacity": "100000000000000000000000",
-              "isEnabled": true,
-              "rate": "167000000000000000000"
-            },
-            "out": {
-              "capacity": "100000000000000000000000",
-              "isEnabled": true,
-              "rate": "167000000000000000000"
-            }
-          }
-        }
-      }
+      "supportedTokens": ["CCIP-BnM"]
     },
     "wemix-testnet": {
       "offRamp": {
@@ -1107,50 +1020,7 @@
         "enforceOutOfOrder": false,
         "version": "1.5.0"
       },
-      "supportedTokens": {
-        "CCIP-BnM": {
-          "rateLimiterConfig": {
-            "in": {
-              "capacity": "100000000000000000000000",
-              "isEnabled": true,
-              "rate": "167000000000000000000"
-            },
-            "out": {
-              "capacity": "100000000000000000000000",
-              "isEnabled": true,
-              "rate": "167000000000000000000"
-            }
-          }
-        },
-        "CCIP-LnM": {
-          "rateLimiterConfig": {
-            "in": {
-              "capacity": "100000000000000000000000",
-              "isEnabled": true,
-              "rate": "167000000000000000000"
-            },
-            "out": {
-              "capacity": "100000000000000000000000",
-              "isEnabled": true,
-              "rate": "167000000000000000000"
-            }
-          }
-        },
-        "syrupUSDT": {
-          "rateLimiterConfig": {
-            "in": {
-              "capacity": "0",
-              "isEnabled": false,
-              "rate": "0"
-            },
-            "out": {
-              "capacity": "0",
-              "isEnabled": false,
-              "rate": "0"
-            }
-          }
-        }
-      }
+      "supportedTokens": ["CCIP-BnM", "CCIP-LnM", "syrupUSDT"]
     },
     "celo-testnet-alfajores": {
       "offRamp": {
@@ -1272,64 +1142,7 @@
         "enforceOutOfOrder": false,
         "version": "1.5.0"
       },
-      "supportedTokens": {
-        "CCIP-BnM": {
-          "rateLimiterConfig": {
-            "in": {
-              "capacity": "100000000000000000000000",
-              "isEnabled": true,
-              "rate": "167000000000000000000"
-            },
-            "out": {
-              "capacity": "100000000000000000000000",
-              "isEnabled": true,
-              "rate": "167000000000000000000"
-            }
-          }
-        },
-        "CCIP-LnM": {
-          "rateLimiterConfig": {
-            "in": {
-              "capacity": "100000000000000000000000",
-              "isEnabled": true,
-              "rate": "167000000000000000000"
-            },
-            "out": {
-              "capacity": "100000000000000000000000",
-              "isEnabled": true,
-              "rate": "167000000000000000000"
-            }
-          }
-        },
-        "syrupUSDC": {
-          "rateLimiterConfig": {
-            "in": {
-              "capacity": "0",
-              "isEnabled": false,
-              "rate": "0"
-            },
-            "out": {
-              "capacity": "0",
-              "isEnabled": false,
-              "rate": "0"
-            }
-          }
-        },
-        "USDC": {
-          "rateLimiterConfig": {
-            "in": {
-              "capacity": "0",
-              "isEnabled": false,
-              "rate": "0"
-            },
-            "out": {
-              "capacity": "0",
-              "isEnabled": false,
-              "rate": "0"
-            }
-          }
-        }
-      }
+      "supportedTokens": ["CCIP-BnM", "CCIP-LnM", "syrupUSDC", "USDC"]
     },
     "ethereum-testnet-sepolia-base-1": {
       "offRamp": {
@@ -1341,64 +1154,7 @@
         "enforceOutOfOrder": false,
         "version": "1.6.0"
       },
-      "supportedTokens": {
-        "CCIP-BnM": {
-          "rateLimiterConfig": {
-            "in": {
-              "capacity": "100000000000000000000000",
-              "isEnabled": true,
-              "rate": "167000000000000000000"
-            },
-            "out": {
-              "capacity": "100000000000000000000000",
-              "isEnabled": true,
-              "rate": "167000000000000000000"
-            }
-          }
-        },
-        "CCIP-LnM": {
-          "rateLimiterConfig": {
-            "in": {
-              "capacity": "100000000000000000000000",
-              "isEnabled": true,
-              "rate": "167000000000000000000"
-            },
-            "out": {
-              "capacity": "100000000000000000000000",
-              "isEnabled": true,
-              "rate": "167000000000000000000"
-            }
-          }
-        },
-        "syrupUSDC": {
-          "rateLimiterConfig": {
-            "in": {
-              "capacity": "0",
-              "isEnabled": false,
-              "rate": "0"
-            },
-            "out": {
-              "capacity": "0",
-              "isEnabled": false,
-              "rate": "0"
-            }
-          }
-        },
-        "USDC": {
-          "rateLimiterConfig": {
-            "in": {
-              "capacity": "0",
-              "isEnabled": false,
-              "rate": "0"
-            },
-            "out": {
-              "capacity": "0",
-              "isEnabled": false,
-              "rate": "0"
-            }
-          }
-        }
-      }
+      "supportedTokens": ["CCIP-BnM", "CCIP-LnM", "syrupUSDC", "USDC"]
     },
     "ethereum-testnet-sepolia-blast-1": {
       "offRamp": {
@@ -1498,50 +1254,7 @@
         "enforceOutOfOrder": false,
         "version": "1.5.0"
       },
-      "supportedTokens": {
-        "CCIP-BnM": {
-          "rateLimiterConfig": {
-            "in": {
-              "capacity": "100000000000000000000000",
-              "isEnabled": true,
-              "rate": "167000000000000000000"
-            },
-            "out": {
-              "capacity": "100000000000000000000000",
-              "isEnabled": true,
-              "rate": "167000000000000000000"
-            }
-          }
-        },
-        "CCIP-LnM": {
-          "rateLimiterConfig": {
-            "in": {
-              "capacity": "100000000000000000000000",
-              "isEnabled": true,
-              "rate": "167000000000000000000"
-            },
-            "out": {
-              "capacity": "100000000000000000000000",
-              "isEnabled": true,
-              "rate": "167000000000000000000"
-            }
-          }
-        },
-        "USDC": {
-          "rateLimiterConfig": {
-            "in": {
-              "capacity": "0",
-              "isEnabled": false,
-              "rate": "0"
-            },
-            "out": {
-              "capacity": "0",
-              "isEnabled": false,
-              "rate": "0"
-            }
-          }
-        }
-      }
+      "supportedTokens": ["CCIP-BnM", "CCIP-LnM", "USDC"]
     },
     "ethereum-testnet-sepolia-polygon-zkevm-1": {
       "offRamp": {
@@ -1861,50 +1574,7 @@
         "enforceOutOfOrder": true,
         "version": "1.6.0"
       },
-      "supportedTokens": {
-        "CCIP-BnM": {
-          "rateLimiterConfig": {
-            "in": {
-              "capacity": "100000000000000000000000",
-              "isEnabled": true,
-              "rate": "167000000000000000000"
-            },
-            "out": {
-              "capacity": "100000000000000000000000",
-              "isEnabled": true,
-              "rate": "167000000000000000000"
-            }
-          }
-        },
-        "syrupUSDC": {
-          "rateLimiterConfig": {
-            "in": {
-              "capacity": "0",
-              "isEnabled": false,
-              "rate": "0"
-            },
-            "out": {
-              "capacity": "0",
-              "isEnabled": false,
-              "rate": "0"
-            }
-          }
-        },
-        "USDC": {
-          "rateLimiterConfig": {
-            "in": {
-              "capacity": "0",
-              "isEnabled": false,
-              "rate": "0"
-            },
-            "out": {
-              "capacity": "0",
-              "isEnabled": false,
-              "rate": "0"
-            }
-          }
-        }
-      }
+      "supportedTokens": ["CCIP-BnM", "syrupUSDC", "USDC"]
     },
     "sonic-testnet": {
       "offRamp": {
@@ -1916,22 +1586,7 @@
         "enforceOutOfOrder": false,
         "version": "1.6.0"
       },
-      "supportedTokens": {
-        "CCIP-BnM": {
-          "rateLimiterConfig": {
-            "in": {
-              "capacity": "0",
-              "isEnabled": false,
-              "rate": "0"
-            },
-            "out": {
-              "capacity": "0",
-              "isEnabled": false,
-              "rate": "0"
-            }
-          }
-        }
-      }
+      "supportedTokens": ["CCIP-BnM"]
     },
     "superseed-testnet": {
       "offRamp": {
@@ -2101,64 +1756,7 @@
         "enforceOutOfOrder": false,
         "version": "1.5.0"
       },
-      "supportedTokens": {
-        "CCIP-BnM": {
-          "rateLimiterConfig": {
-            "in": {
-              "capacity": "100000000000000000000000",
-              "isEnabled": true,
-              "rate": "167000000000000000000"
-            },
-            "out": {
-              "capacity": "100000000000000000000000",
-              "isEnabled": true,
-              "rate": "167000000000000000000"
-            }
-          }
-        },
-        "CCIP-LnM": {
-          "rateLimiterConfig": {
-            "in": {
-              "capacity": "100000000000000000000000",
-              "isEnabled": true,
-              "rate": "167000000000000000000"
-            },
-            "out": {
-              "capacity": "100000000000000000000000",
-              "isEnabled": true,
-              "rate": "167000000000000000000"
-            }
-          }
-        },
-        "syrupUSDC": {
-          "rateLimiterConfig": {
-            "in": {
-              "capacity": "0",
-              "isEnabled": false,
-              "rate": "0"
-            },
-            "out": {
-              "capacity": "0",
-              "isEnabled": false,
-              "rate": "0"
-            }
-          }
-        },
-        "USDC": {
-          "rateLimiterConfig": {
-            "in": {
-              "capacity": "0",
-              "isEnabled": false,
-              "rate": "0"
-            },
-            "out": {
-              "capacity": "0",
-              "isEnabled": false,
-              "rate": "0"
-            }
-          }
-        }
-      }
+      "supportedTokens": ["CCIP-BnM", "CCIP-LnM", "syrupUSDC", "USDC"]
     },
     "ethereum-testnet-sepolia-andromeda-1": {
       "offRamp": {
@@ -2181,36 +1779,7 @@
         "enforceOutOfOrder": false,
         "version": "1.5.0"
       },
-      "supportedTokens": {
-        "CCIP-BnM": {
-          "rateLimiterConfig": {
-            "in": {
-              "capacity": "100000000000000000000000",
-              "isEnabled": true,
-              "rate": "167000000000000000000"
-            },
-            "out": {
-              "capacity": "100000000000000000000000",
-              "isEnabled": true,
-              "rate": "167000000000000000000"
-            }
-          }
-        },
-        "CCIP-LnM": {
-          "rateLimiterConfig": {
-            "in": {
-              "capacity": "100000000000000000000000",
-              "isEnabled": true,
-              "rate": "167000000000000000000"
-            },
-            "out": {
-              "capacity": "100000000000000000000000",
-              "isEnabled": true,
-              "rate": "167000000000000000000"
-            }
-          }
-        }
-      }
+      "supportedTokens": ["CCIP-BnM", "CCIP-LnM"]
     },
     "ethereum-testnet-sepolia-hashkey-1": {
       "offRamp": {
@@ -2233,36 +1802,7 @@
         "enforceOutOfOrder": false,
         "version": "1.5.0"
       },
-      "supportedTokens": {
-        "CCIP-BnM": {
-          "rateLimiterConfig": {
-            "in": {
-              "capacity": "100000000000000000000000",
-              "isEnabled": true,
-              "rate": "167000000000000000000"
-            },
-            "out": {
-              "capacity": "100000000000000000000000",
-              "isEnabled": true,
-              "rate": "167000000000000000000"
-            }
-          }
-        },
-        "CCIP-LnM": {
-          "rateLimiterConfig": {
-            "in": {
-              "capacity": "100000000000000000000000",
-              "isEnabled": true,
-              "rate": "167000000000000000000"
-            },
-            "out": {
-              "capacity": "100000000000000000000000",
-              "isEnabled": true,
-              "rate": "167000000000000000000"
-            }
-          }
-        }
-      }
+      "supportedTokens": ["CCIP-BnM", "CCIP-LnM"]
     },
     "ethereum-testnet-sepolia-soneium-1": {
       "offRamp": {
@@ -2307,22 +1847,7 @@
         "enforceOutOfOrder": true,
         "version": "1.6.0"
       },
-      "supportedTokens": {
-        "CCIP-BnM": {
-          "rateLimiterConfig": {
-            "in": {
-              "capacity": "100000000000000000000000",
-              "isEnabled": true,
-              "rate": "167000000000000000000"
-            },
-            "out": {
-              "capacity": "100000000000000000000000",
-              "isEnabled": true,
-              "rate": "167000000000000000000"
-            }
-          }
-        }
-      }
+      "supportedTokens": ["CCIP-BnM"]
     },
     "treasure-testnet-topaz": {
       "offRamp": {
@@ -2402,36 +1927,7 @@
         "enforceOutOfOrder": false,
         "version": "1.5.0"
       },
-      "supportedTokens": {
-        "CCIP-BnM": {
-          "rateLimiterConfig": {
-            "in": {
-              "capacity": "100000000000000000000000",
-              "isEnabled": true,
-              "rate": "167000000000000000000"
-            },
-            "out": {
-              "capacity": "100000000000000000000000",
-              "isEnabled": true,
-              "rate": "167000000000000000000"
-            }
-          }
-        },
-        "CCIP-LnM": {
-          "rateLimiterConfig": {
-            "in": {
-              "capacity": "100000000000000000000000",
-              "isEnabled": true,
-              "rate": "167000000000000000000"
-            },
-            "out": {
-              "capacity": "100000000000000000000000",
-              "isEnabled": true,
-              "rate": "167000000000000000000"
-            }
-          }
-        }
-      }
+      "supportedTokens": ["CCIP-BnM", "CCIP-LnM"]
     },
     "celo-testnet-alfajores": {
       "offRamp": {
@@ -2465,64 +1961,7 @@
         "enforceOutOfOrder": false,
         "version": "1.6.0"
       },
-      "supportedTokens": {
-        "CCIP-BnM": {
-          "rateLimiterConfig": {
-            "in": {
-              "capacity": "100000000000000000000000",
-              "isEnabled": true,
-              "rate": "167000000000000000000"
-            },
-            "out": {
-              "capacity": "100000000000000000000000",
-              "isEnabled": true,
-              "rate": "167000000000000000000"
-            }
-          }
-        },
-        "CCIP-LnM": {
-          "rateLimiterConfig": {
-            "in": {
-              "capacity": "100000000000000000000000",
-              "isEnabled": true,
-              "rate": "167000000000000000000"
-            },
-            "out": {
-              "capacity": "100000000000000000000000",
-              "isEnabled": true,
-              "rate": "167000000000000000000"
-            }
-          }
-        },
-        "syrupUSDC": {
-          "rateLimiterConfig": {
-            "in": {
-              "capacity": "0",
-              "isEnabled": false,
-              "rate": "0"
-            },
-            "out": {
-              "capacity": "0",
-              "isEnabled": false,
-              "rate": "0"
-            }
-          }
-        },
-        "USDC": {
-          "rateLimiterConfig": {
-            "in": {
-              "capacity": "0",
-              "isEnabled": false,
-              "rate": "0"
-            },
-            "out": {
-              "capacity": "0",
-              "isEnabled": false,
-              "rate": "0"
-            }
-          }
-        }
-      }
+      "supportedTokens": ["CCIP-BnM", "CCIP-LnM", "syrupUSDC", "USDC"]
     },
     "ethereum-testnet-sepolia-arbitrum-1": {
       "offRamp": {
@@ -2534,36 +1973,7 @@
         "enforceOutOfOrder": false,
         "version": "1.5.0"
       },
-      "supportedTokens": {
-        "CCIP-BnM": {
-          "rateLimiterConfig": {
-            "in": {
-              "capacity": "100000000000000000000000",
-              "isEnabled": true,
-              "rate": "167000000000000000000"
-            },
-            "out": {
-              "capacity": "100000000000000000000000",
-              "isEnabled": true,
-              "rate": "167000000000000000000"
-            }
-          }
-        },
-        "CCIP-LnM": {
-          "rateLimiterConfig": {
-            "in": {
-              "capacity": "100000000000000000000000",
-              "isEnabled": true,
-              "rate": "167000000000000000000"
-            },
-            "out": {
-              "capacity": "100000000000000000000000",
-              "isEnabled": true,
-              "rate": "167000000000000000000"
-            }
-          }
-        }
-      }
+      "supportedTokens": ["CCIP-BnM", "CCIP-LnM"]
     },
     "ethereum-testnet-sepolia-hashkey-1": {
       "offRamp": {
@@ -2597,36 +2007,7 @@
         "enforceOutOfOrder": false,
         "version": "1.5.0"
       },
-      "supportedTokens": {
-        "CCIP-BnM": {
-          "rateLimiterConfig": {
-            "in": {
-              "capacity": "100000000000000000000000",
-              "isEnabled": true,
-              "rate": "167000000000000000000"
-            },
-            "out": {
-              "capacity": "100000000000000000000000",
-              "isEnabled": true,
-              "rate": "167000000000000000000"
-            }
-          }
-        },
-        "CCIP-LnM": {
-          "rateLimiterConfig": {
-            "in": {
-              "capacity": "100000000000000000000000",
-              "isEnabled": true,
-              "rate": "167000000000000000000"
-            },
-            "out": {
-              "capacity": "100000000000000000000000",
-              "isEnabled": true,
-              "rate": "167000000000000000000"
-            }
-          }
-        }
-      }
+      "supportedTokens": ["CCIP-BnM", "CCIP-LnM"]
     },
     "ink-testnet-sepolia": {
       "offRamp": {
@@ -2682,22 +2063,7 @@
         "enforceOutOfOrder": true,
         "version": "1.6.0"
       },
-      "supportedTokens": {
-        "CCIP-BnM": {
-          "rateLimiterConfig": {
-            "in": {
-              "capacity": "100000000000000000000000",
-              "isEnabled": true,
-              "rate": "167000000000000000000"
-            },
-            "out": {
-              "capacity": "100000000000000000000000",
-              "isEnabled": true,
-              "rate": "167000000000000000000"
-            }
-          }
-        }
-      }
+      "supportedTokens": ["CCIP-BnM"]
     },
     "wemix-testnet": {
       "offRamp": {
@@ -2982,50 +2348,7 @@
         "enforceOutOfOrder": false,
         "version": "1.5.0"
       },
-      "supportedTokens": {
-        "CCIP-BnM": {
-          "rateLimiterConfig": {
-            "in": {
-              "capacity": "100000000000000000000000",
-              "isEnabled": true,
-              "rate": "167000000000000000000"
-            },
-            "out": {
-              "capacity": "100000000000000000000000",
-              "isEnabled": true,
-              "rate": "167000000000000000000"
-            }
-          }
-        },
-        "CCIP-LnM": {
-          "rateLimiterConfig": {
-            "in": {
-              "capacity": "100000000000000000000000",
-              "isEnabled": true,
-              "rate": "167000000000000000000"
-            },
-            "out": {
-              "capacity": "100000000000000000000000",
-              "isEnabled": true,
-              "rate": "167000000000000000000"
-            }
-          }
-        },
-        "USDC": {
-          "rateLimiterConfig": {
-            "in": {
-              "capacity": "0",
-              "isEnabled": false,
-              "rate": "0"
-            },
-            "out": {
-              "capacity": "0",
-              "isEnabled": false,
-              "rate": "0"
-            }
-          }
-        }
-      }
+      "supportedTokens": ["CCIP-BnM", "CCIP-LnM", "USDC"]
     },
     "ethereum-testnet-sepolia-arbitrum-1": {
       "offRamp": {
@@ -3037,36 +2360,7 @@
         "enforceOutOfOrder": false,
         "version": "1.5.0"
       },
-      "supportedTokens": {
-        "CCIP-BnM": {
-          "rateLimiterConfig": {
-            "in": {
-              "capacity": "100000000000000000000000",
-              "isEnabled": true,
-              "rate": "167000000000000000000"
-            },
-            "out": {
-              "capacity": "100000000000000000000000",
-              "isEnabled": true,
-              "rate": "167000000000000000000"
-            }
-          }
-        },
-        "CCIP-LnM": {
-          "rateLimiterConfig": {
-            "in": {
-              "capacity": "100000000000000000000000",
-              "isEnabled": true,
-              "rate": "167000000000000000000"
-            },
-            "out": {
-              "capacity": "100000000000000000000000",
-              "isEnabled": true,
-              "rate": "167000000000000000000"
-            }
-          }
-        }
-      }
+      "supportedTokens": ["CCIP-BnM", "CCIP-LnM"]
     },
     "ethereum-testnet-sepolia-base-1": {
       "offRamp": {
@@ -3078,36 +2372,7 @@
         "enforceOutOfOrder": false,
         "version": "1.5.0"
       },
-      "supportedTokens": {
-        "CCIP-BnM": {
-          "rateLimiterConfig": {
-            "in": {
-              "capacity": "100000000000000000000000",
-              "isEnabled": true,
-              "rate": "167000000000000000000"
-            },
-            "out": {
-              "capacity": "100000000000000000000000",
-              "isEnabled": true,
-              "rate": "167000000000000000000"
-            }
-          }
-        },
-        "CCIP-LnM": {
-          "rateLimiterConfig": {
-            "in": {
-              "capacity": "100000000000000000000000",
-              "isEnabled": true,
-              "rate": "167000000000000000000"
-            },
-            "out": {
-              "capacity": "100000000000000000000000",
-              "isEnabled": true,
-              "rate": "167000000000000000000"
-            }
-          }
-        }
-      }
+      "supportedTokens": ["CCIP-BnM", "CCIP-LnM"]
     },
     "ethereum-testnet-sepolia-hashkey-1": {
       "offRamp": {
@@ -3163,36 +2428,7 @@
         "enforceOutOfOrder": true,
         "version": "1.6.0"
       },
-      "supportedTokens": {
-        "CCIP-BnM": {
-          "rateLimiterConfig": {
-            "in": {
-              "capacity": "100000000000000000000000",
-              "isEnabled": true,
-              "rate": "167000000000000000000"
-            },
-            "out": {
-              "capacity": "100000000000000000000000",
-              "isEnabled": true,
-              "rate": "167000000000000000000"
-            }
-          }
-        },
-        "USDC": {
-          "rateLimiterConfig": {
-            "in": {
-              "capacity": "0",
-              "isEnabled": false,
-              "rate": "0"
-            },
-            "out": {
-              "capacity": "0",
-              "isEnabled": false,
-              "rate": "0"
-            }
-          }
-        }
-      }
+      "supportedTokens": ["CCIP-BnM", "USDC"]
     },
     "wemix-testnet": {
       "offRamp": {
@@ -4076,22 +3312,7 @@
         "enforceOutOfOrder": true,
         "version": "1.6.0"
       },
-      "supportedTokens": {
-        "CCIP-BnM": {
-          "rateLimiterConfig": {
-            "in": {
-              "capacity": "100000000000000",
-              "isEnabled": true,
-              "rate": "167000000000"
-            },
-            "out": {
-              "capacity": "100000000000000",
-              "isEnabled": true,
-              "rate": "167000000000"
-            }
-          }
-        }
-      }
+      "supportedTokens": ["CCIP-BnM"]
     },
     "ethereum-testnet-sepolia": {
       "offRamp": {
@@ -4103,50 +3324,7 @@
         "enforceOutOfOrder": true,
         "version": "1.6.0"
       },
-      "supportedTokens": {
-        "CCIP-BnM": {
-          "rateLimiterConfig": {
-            "in": {
-              "capacity": "100000000000000",
-              "isEnabled": true,
-              "rate": "167000000000"
-            },
-            "out": {
-              "capacity": "100000000000000",
-              "isEnabled": true,
-              "rate": "167000000000"
-            }
-          }
-        },
-        "syrupUSDC": {
-          "rateLimiterConfig": {
-            "in": {
-              "capacity": "0",
-              "isEnabled": false,
-              "rate": "0"
-            },
-            "out": {
-              "capacity": "0",
-              "isEnabled": false,
-              "rate": "0"
-            }
-          }
-        },
-        "USDC": {
-          "rateLimiterConfig": {
-            "in": {
-              "capacity": "0",
-              "isEnabled": false,
-              "rate": "0"
-            },
-            "out": {
-              "capacity": "0",
-              "isEnabled": false,
-              "rate": "0"
-            }
-          }
-        }
-      }
+      "supportedTokens": ["CCIP-BnM", "syrupUSDC", "USDC"]
     },
     "ethereum-testnet-sepolia-arbitrum-1": {
       "offRamp": {
@@ -4158,22 +3336,7 @@
         "enforceOutOfOrder": true,
         "version": "1.6.0"
       },
-      "supportedTokens": {
-        "CCIP-BnM": {
-          "rateLimiterConfig": {
-            "in": {
-              "capacity": "100000000000000",
-              "isEnabled": true,
-              "rate": "167000000000"
-            },
-            "out": {
-              "capacity": "100000000000000",
-              "isEnabled": true,
-              "rate": "167000000000"
-            }
-          }
-        }
-      }
+      "supportedTokens": ["CCIP-BnM"]
     },
     "ethereum-testnet-sepolia-base-1": {
       "offRamp": {
@@ -4185,22 +3348,7 @@
         "enforceOutOfOrder": true,
         "version": "1.6.0"
       },
-      "supportedTokens": {
-        "CCIP-BnM": {
-          "rateLimiterConfig": {
-            "in": {
-              "capacity": "100000000000000",
-              "isEnabled": true,
-              "rate": "167000000000"
-            },
-            "out": {
-              "capacity": "100000000000000",
-              "isEnabled": true,
-              "rate": "167000000000"
-            }
-          }
-        }
-      }
+      "supportedTokens": ["CCIP-BnM"]
     },
     "ethereum-testnet-sepolia-optimism-1": {
       "offRamp": {
@@ -4212,36 +3360,7 @@
         "enforceOutOfOrder": true,
         "version": "1.6.0"
       },
-      "supportedTokens": {
-        "CCIP-BnM": {
-          "rateLimiterConfig": {
-            "in": {
-              "capacity": "100000000000000",
-              "isEnabled": true,
-              "rate": "167000000000"
-            },
-            "out": {
-              "capacity": "100000000000000",
-              "isEnabled": true,
-              "rate": "167000000000"
-            }
-          }
-        },
-        "USDC": {
-          "rateLimiterConfig": {
-            "in": {
-              "capacity": "0",
-              "isEnabled": false,
-              "rate": "0"
-            },
-            "out": {
-              "capacity": "0",
-              "isEnabled": false,
-              "rate": "0"
-            }
-          }
-        }
-      }
+      "supportedTokens": ["CCIP-BnM", "USDC"]
     },
     "ethereum-testnet-sepolia-unichain-1": {
       "offRamp": {
@@ -4343,22 +3462,7 @@
         "enforceOutOfOrder": false,
         "version": "1.6.0"
       },
-      "supportedTokens": {
-        "CCIP-BnM": {
-          "rateLimiterConfig": {
-            "in": {
-              "capacity": "0",
-              "isEnabled": false,
-              "rate": "0"
-            },
-            "out": {
-              "capacity": "0",
-              "isEnabled": false,
-              "rate": "0"
-            }
-          }
-        }
-      }
+      "supportedTokens": ["CCIP-BnM"]
     }
   },
   "superseed-testnet": {
